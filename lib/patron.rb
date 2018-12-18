@@ -11,4 +11,8 @@ class Patron
   def add_interest(interest)
     @interests << interest
   end
+
+  def spend(dollars)
+    @spending_money -= dollars
+  end
 end
